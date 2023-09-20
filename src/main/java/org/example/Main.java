@@ -12,7 +12,13 @@ public class Main {
     }
 
     // Schreibe einen Test für eine Methode, die prüft, ob eine gegebene Zahl gerade ist (even).
+
+    public static boolean isEven(int number) {
+        return number % 2 == 0;
+    }
+
     // Schreibe einen Test für eine Methode, die das Produkt zweier ganzer Zahlen berechnet.
+
     // Schreibe einen Test für eine Methode, die eine gegebene Zeichenkette in Großbuchstaben umwandelt.
     // Schreibe einen Test für eine Methode, die prüft, ob eine gegebene Zahl positiv ist.
 }
