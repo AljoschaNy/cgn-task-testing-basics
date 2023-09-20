@@ -22,6 +22,13 @@ class MainTest {
     // Schreibe einen Test für eine Methode, die prüft, ob eine gegebene Zahl gerade ist (even).
     @Test
     void isEven() {
+        //GIVEN
+        int number = 4;
+        boolean expect = number%2 == 0;
+        //WHEN
+        boolean actual = Main.isEven(number);
+        //THEN
+        assertEquals(expect,actual);
     }
 
     // Schreibe einen Test für eine Methode, die das Produkt zweier ganzer Zahlen berechnet.
