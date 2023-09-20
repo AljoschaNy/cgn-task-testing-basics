@@ -34,8 +34,3 @@ public class Main {
 
 }
 
-// Schreibe einen Test für eine Methode, die die Summe von zwei ganzen Zahlen berechnet.
-// Schreibe einen Test für eine Methode, die prüft, ob eine gegebene Zahl gerade ist (even).
-// Schreibe einen Test für eine Methode, die das Produkt zweier ganzer Zahlen berechnet.
-// Schreibe einen Test für eine Methode, die eine gegebene Zeichenkette in Großbuchstaben umwandelt.
-// Schreibe einen Test für eine Methode, die prüft, ob eine gegebene Zahl positiv ist.
