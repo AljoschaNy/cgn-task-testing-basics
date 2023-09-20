@@ -34,6 +34,13 @@ class MainTest {
     // Schreibe einen Test für eine Methode, die das Produkt zweier ganzer Zahlen berechnet.
     @Test
     void multiply() {
+        int number1 = 15;
+        int number2 = 16;
+        int expect = number1 * number2;
+        //WHEN
+        int actual = Main.multiply(number1,number2);
+        //THEN
+        assertEquals(expect,actual);
     }
 
     // Schreibe einen Test für eine Methode, die eine gegebene Zeichenkette in Großbuchstaben umwandelt.
