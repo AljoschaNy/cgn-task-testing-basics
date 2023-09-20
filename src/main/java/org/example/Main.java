@@ -25,12 +25,12 @@ public class Main {
     // Schreibe einen Test für eine Methode, die eine gegebene Zeichenkette in Großbuchstaben umwandelt.
     public static String textToUpperCase(String letter) {
         return letter.toUpperCase();
-
-
     }
 
-
-// Schreibe einen Test für eine Methode, die prüft, ob eine gegebene Zahl positiv ist.
+    // Schreibe einen Test für eine Methode, die prüft, ob eine gegebene Zahl positiv ist.
+    public static boolean isNumberPositive(int number) {
+        return number >= 0;
+    }
 
 }
 
