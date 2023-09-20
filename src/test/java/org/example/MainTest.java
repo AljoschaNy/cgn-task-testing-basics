@@ -14,7 +14,7 @@ class MainTest {
         //GIVEN
         int number1 = 10;
         int number2 = 20;
-        int expect = number1 + number2;
+        int expect = 30;
         //WHEN
         int actual = Main.sum(number1,number2);
         //THEN
@@ -26,7 +26,7 @@ class MainTest {
     void isEven() {
         //GIVEN
         int number = 4;
-        boolean expect = number%2 == 0;
+        boolean expect = true;
         //WHEN
         boolean actual = Main.isEven(number);
         //THEN
@@ -38,7 +38,7 @@ class MainTest {
     void multiply() {
         int number1 = 15;
         int number2 = 16;
-        int expect = number1 * number2;
+        int expect = 240;
         //WHEN
         int actual = Main.multiply(number1,number2);
         //THEN
@@ -60,5 +60,12 @@ class MainTest {
     // Schreibe einen Test für eine Methode, die prüft, ob eine gegebene Zahl positiv ist.
     @Test
     void isNumberPositive() {
+        //GIVEN
+        int number = 6;
+        boolean expected = true;
+        //WHEN
+        boolean actual = Main.isNumberPositive(number);
+        //THEN
+        assertEquals(expected,actual);
     }
 }
