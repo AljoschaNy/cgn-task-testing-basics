@@ -2,6 +2,8 @@ package org.example;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Locale;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
@@ -46,6 +48,13 @@ class MainTest {
     // Schreibe einen Test für eine Methode, die eine gegebene Zeichenkette in Großbuchstaben umwandelt.
     @Test
     void textToUpperCase() {
+        //GIVEN
+        String letter= "hello";
+        String expected= "HELLO";
+        //WHEN
+        String actual= Main.textToUpperCase(letter);
+        //THEN
+        assertEquals(expected,actual);
     }
 
     // Schreibe einen Test für eine Methode, die prüft, ob eine gegebene Zahl positiv ist.
