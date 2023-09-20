@@ -18,14 +18,13 @@ public class Main {
     }
 
     // Schreibe einen Test für eine Methode, die das Produkt zweier ganzer Zahlen berechnet.
-
-    // Schreibe einen Test für eine Methode, die eine gegebene Zeichenkette in Großbuchstaben umwandelt.
-    // Schreibe einen Test für eine Methode, die prüft, ob eine gegebene Zahl positiv ist.
+    public static int multiply(int number1, int number2) {
+        return number1 * number2;
+    }
 }
-
-
-
-
+// Schreibe einen Test für eine Methode, die eine gegebene Zeichenkette in Großbuchstaben umwandelt.
+// Schreibe einen Test für eine Methode, die prüft, ob eine gegebene Zahl positiv ist.
+}
 
 
 // Schreibe einen Test für eine Methode, die die Summe von zwei ganzen Zahlen berechnet.
